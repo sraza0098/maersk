@@ -1,0 +1,149 @@
+body {
+    display: block;
+    margin: 0px;
+    background-color: #efefef !important;
+}
+.nav-bar{
+    background-color: #ffffff !important;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.nav-bar > div{
+        color: black;
+    }
+    .text{
+        color: white;
+        font-size: -webkit-xxx-large;
+    }
+.box{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.col {
+    padding: 5rem;
+    text-align: center;
+    border: 0.2px solid black;
+}
+.grid-1{
+    background-color: #6F98A8
+}
+.grid-2{
+    background-color: #2B8EAD 
+}
+.grid-3{
+    background-color: #2F454E
+}
+.grid-4{
+    background-color: #2B8EAD
+}
+.grid-5{
+    background-color: #2F454E
+}
+.grid-6{
+    background-color: #BFBFBF
+}
+.grid-7{
+    background-color: #BFBFBF
+}
+.grid-8{
+    background-color: #6F98A8
+}
+.grid-9{
+    background-color: #2F454E
+}
+
+.button-container{
+    min-width: 20%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.button-style{
+    background-color: #72C3DC;
+    border: 0px solid;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 8px 2px -2px #2b8ead;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: #ffffff !important;
+    }
+    .nav-bar{
+        background-color: #000000 !important;;
+        
+    }
+    .nav-bar > div{
+            color: #ffffff;
+        }
+    .box{
+        justify-content: unset;
+        align-items: unset;
+        flex-direction: column-reverse;
+    }
+    .flex-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: unset;
+    }
+    .col { 
+        padding: 0rem; 
+        margin:5px;
+        background-color: #efefef;
+    }
+    .button-container{
+        display: block;
+        justify-content: stretch;
+        min-width: 50%;
+    }
+    .button-style{
+        width: 45%;
+    }
+
+    .grid-1{
+            border-left: 12px solid #6F98A8;
+    }
+    .grid-2{
+        border-left: 12px solid #2B8EAD;
+    }
+    .grid-3{
+        border-left: 12px solid #2F454E;
+    }
+    .grid-4{
+        border-left: 12px solid #2B8EAD;
+    }
+    .grid-5{
+        border-left: 12px solid #2F454E;
+    }
+    .grid-6{
+        border-left: 12px solid #BFBFBF;
+    }
+    .grid-7{
+        border-left: 12px solid #BFBFBF;
+    }
+    .grid-8{
+        border-left: 12px solid #6F98A8;
+    }
+    .grid-9{
+        border-left: 12px solid #2F454E;
+    }
+}
